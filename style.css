@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Adamina', serif;
+}
+.background{
+    background-color: #ffffff;
+}
+.container{
+    margin-bottom: 70px;
+}
+.carousel-item{
+    padding: 20px 30px;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 8px;
+}
+.h1-mi{
+    color: black;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px rgb(17, 16, 16);
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+p{
+    color: dimgrey;
+    text-align: justify;
+}
+.price{
+    color: crimson;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom right,purple,crimson);
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 3px 3px 13px rgb(90, 90, 90);
+}
+.buy-now-button:hover{
+    background-image: linear-gradient(65deg,#007bff,#28a745);
+}
+.cat1,.cat2,.cat3{
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.cat1:hover,.cat2:hover,.cat3:hover{
+    box-shadow: 6px 7px  30px rgb(201, 199, 199);
+}
+.cat1{
+    background-color: cyan;
+    background-image: linear-gradient(to bottom left,rgb(127, 39, 228),rgb(171, 180, 171));
+}
+.cat2{
+    background-color: orangered;
+    background-image: linear-gradient(to top left,rgb(67, 220, 20),rgb(221, 223, 155));
+}
+.cat3{
+    background-color: crimson;
+    background-image: linear-gradient(to bottom right,rgb(147, 20, 220),rgb(230, 221, 221));
+}
+.categories h1{
+    color: white;
+    font-size: 44px;
+    text-shadow: 3px 3px 7px black;
+}
+.categories img{
+    height: 120px;
+}
+.shoes-gallery h2{
+    text-shadow: 1px 1px 3px rgb(17, 16, 16);
+    font-weight: 700;
+}
+.shoes-gallery h5{
+    text-shadow: 1px 1px 3px rgb(17, 16, 16);
+    font-weight: 700;
+    font-size: 30px;
+}
+.card{
+   border: none;
+   box-shadow: 5px 5px  10px lightgray;
+}
+.see-all{
+    color: black;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(17, 16, 16);
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    padding: 4px 5px;
+}
+.margin-top{
+    margin-top: -4.5%;
+}
+.card img{
+    height: 215px;
+}
+#contact-us{
+    height: 240px;
+}
+#contact-us button{
+    margin-top: 3%;
+}
+footer p{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(17, 16, 16);
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 15px;
+}
+footer p:hover{
+    color: rgb(255, 15, 15); 
+}

@@ -1,12 +1,218 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda Commere</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panda Commere</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container background">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#shoes">Shoes</a>
+                    <a class="dropdown-item" href="#backpack">Backpack</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Watch</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-us">Contact us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1 class="h1-mi">Apple TV 4K - Apple</h1>
+                <p> The powerful 64-bit Quad-core processor renders clips free of lags and hangs, so you never miss out on any of the action
+                   View crisp clear images on the Full HD LED display
+                  Make the best of the Google Voice search function that allows you to control home device, play content, get answers and more
+                  Connect to your smartphone or laptop effortlessly via Bluetooth 4.2 LE
+                  Enjoy seamless storage and speed as this TV comes with 1GB RAM and 8GB storage space</p>
+                <h1 class="price">$1200</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="banner-images/tv.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1 class="h1-mi">Headphone</h1>
+                <p>Discover a wide range of Headphone including Razer, Gamdias, Logitech headphone at best price in Bangladesh. Shop online or visit your nearest Star Tech ...</p>
+                <h1 class="price">$420</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="banner-images/headphone.png" class="d-block w-100" alt="...">
+              </div>
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1 class="h1-mi">X-Box One</h1>
+                <p> Games. Games home; Console games. Xbox One games · Xbox 360 games · Games with Gold · Deals with Gold · Xbox One X Enhanced games · Backward ...</p>
+                <h1 class="price">$700</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="banner-images/xbox.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="categories container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="cat1 d-flex justify-content-between align-items-center">
+            <h1>Watch</h1>
+            <img src="categories/watch.png" alt="Watch">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat2 d-flex justify-content-between align-items-center">
+            <h1>Bag</h1>
+            <img src="categories/bag.png" alt="Bag">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat3 d-flex justify-content-between align-items-center">
+            <h1>Shoes</h1>
+          <img src="categories/shoes.png" alt="Shoes">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-between align-items-end">
+      <div class="h1-mi" id="shoes">Shoes</div>
+      <div class="see-all btn btn-outline-success">See all</div>
+    </div>
+    <div class="container shoes-gallery margin-top">
+      <div class="card-deck">
+        <div class="card">
+          <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Reebok</h2>
+            <p class="card-text">A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion</p>
+           <h5>$120</h5>
+           <button class="buy-now-button">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Nike</h2>
+            <p class="card-text">A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion</p>
+            <h5>$200</h5>
+            <button class="buy-now-button">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Red Airmax</h2>
+            <p class="card-text">A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion</p>
+            <h5>$350</h5>
+            <button class="buy-now-button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-between align-items-end">
+          <div class="h1-mi" id="backpack">Backpack</div>
+          <div class="see-all btn btn-outline-success">See all</div>
+    </div>
+    <div class="container shoes-gallery margin-top">
+      <div class="card-deck">
+        <div class="card">
+              <img src="bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title">Royal Bag</h2>
+                <p class="card-text">World's Largest Brand Marketplace. Choose Your Favorite Product and Order Now! Quality Assured. 100% Refund.</p>
+              <h5>$420</h5>
+              <button class="buy-now-button">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+                 <img src="bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                <h2 class="card-title">Adventure Bags</h2>
+                <p class="card-text">World's Largest Brand Marketplace. Choose Your Favorite Product and Order Now! Quality Assured. 100% Refund.</p>
+                <h5>$350</h5>
+                <button class="buy-now-button">Buy Now</button>
+           </div>
+        </div>
+        <div class="card">
+              <img src="bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h2 class="card-title">Superior Bag</h2>
+              <p class="card-text">World's Largest Brand Marketplace. Choose Your Favorite Product and Order Now! Quality Assured. 100% Refund.</p>
+              <h5>$370</h5>
+              <button class="buy-now-button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container  d-flex justify-content-center align-items-center orange-bg" id="contact-us">
+      <div>
+            <h1 class="h1-mi">Contact with Us</h1>
+            <p>if you want any help just contact with us by Email </p>
+            <input class="form-control" type="text">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+            <button class="btn btn-outline-success">Submit</button>
+          </div>
+      </div>
+  </div>
+  <footer>
+    <p>©-2020 Panda Commere-All Right Reserved🎌<span style="color: green; height: 100px;">☑</span></p>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
